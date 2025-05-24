@@ -20,28 +20,36 @@ Hello World.
 
 ## 📦 Package and Import
 
-- package main: Defines the entry point of a Go executable program.
+- `package main`: Declares this file as part of the main package, which makes it a standalone executable.
+- `import "fmt"`: Brings in Go’s standard library `fmt` package for formatted input/output operations.
 
-- import "fmt": Imports the fmt package, which provides I/O formatting functions such as Println.
+---
 
-## 🧮 Variable Declaration and Assignment
+## 🔧 Function: main()
 
-- var message string
-Declares a variable named message with an explicit type string. Since it's not initialized, it takes the zero value, which is "" (empty string).
+- `func main()`: This is the program’s entry point. Go looks for `main()` when starting execution.
 
-- message = "Hello World."
-Assigns the string "Hello World." to the previously declared message variable.
+---
 
-## 🖨️ Printing the Value
+## 🧮 Variable Declaration
 
-- fmt.Println(message)
-Prints the value of the message variable to the standard output. In this case, it prints:
-Hello World.
+- `var message string`: Declares a string variable named `message`. Since it’s not initialized, it holds the zero value: an empty string (`""`).
+
+---
+
+## ✍️ Assignment
+
+- `message = "Hello World."`: Assigns the string `"Hello World."` to the `message` variable.
+
+---
+
+## 🖨️ Output Formatting
+
+- `fmt.Println(message)`: Prints the content of `message` to the terminal.
+
+---
 
 ## 📌 Summary
 
-- This example shows how to declare a string variable using var with an explicit type.
-
-- The variable is assigned a value after declaration.
-
-- fmt.Println is used to print the variable’s content to the terminal.
+- Demonstrates Go’s **two-step variable declaration and assignment**.
+- Helps in scenarios where a variable is declared upfront and its value is decided later.
