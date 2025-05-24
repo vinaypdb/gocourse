@@ -7,6 +7,7 @@ A personal Go programming course repository to track learning and practice.
 01_Getting_Started/
 ├── 00_Go_History # Notes on the history and background of Go
 ├── 01_Hello_World.go # First Go program
+├── 02_Number_Formats.go # Example showing decimal, binary, and hex formatting
 
 ```
 
@@ -14,6 +15,7 @@ A personal Go programming course repository to track learning and practice.
 
 - History of Go
 - Writing your first Go program
+- Number formatting with Printf verbs (`%d`, `%b`, `%x`, `%X`, `%#x`, etc.)
 - (More to come...)
 
 ## 🛠 Tech Stack
