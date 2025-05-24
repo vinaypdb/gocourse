@@ -25,7 +25,7 @@ func main() {
 ## Output
 ```
 0
-""(empty string)
+
 0.0
 false
 ```
