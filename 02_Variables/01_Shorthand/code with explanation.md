@@ -1,4 +1,4 @@
-## code 
+## Code 
 ```go
 package main
 

@@ -1,6 +1,6 @@
 # 🧠 Default Zero Values in Go
 
-## code 
+## Code 
 ```go
 package main
 
