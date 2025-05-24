@@ -36,25 +36,6 @@ Variables are declared using the short declaration operator `:=`, which infers t
 
 - This helps you verify what Go inferred as the variable type.
 
-## Sample Output
-
-10
-golang
-4.17
-true
-Hello
-Do you like my hat?
-77
-
-int
-string
-float64
-bool
-string
-string
-int32
-
-
 - The rune `'M'` prints as `77`, its Unicode code point.
 
 - The type for the rune is shown as `int32`.
