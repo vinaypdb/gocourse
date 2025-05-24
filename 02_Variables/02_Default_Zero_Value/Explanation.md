@@ -1,5 +1,35 @@
 # 🧠 Default Zero Values in Go
 
+## code 
+```go
+package main
+
+import "fmt"
+
+func main() {
+
+	var a int
+	var b string
+	var c float64
+	var d bool
+
+	fmt.Printf("%v \n", a)
+	fmt.Printf("%v \n", b)
+	fmt.Printf("%v \n", c)
+	fmt.Printf("%v \n", d)
+
+	fmt.Println()
+} 
+```
+
+## Output
+```
+0
+""(empty string)
+0.0
+false
+```
+
 ## 📦 Package and Import
 
 - `package main`: Declares the executable entry point.
@@ -31,9 +61,6 @@ In Go, variables declared without an explicit initial value receive a **zero val
 
 - `%v` in `fmt.Printf` is used to print each variable's value in its default format.
 - An empty line appears for `b` since it's an empty string.
-
----
-
 
 ---
 
