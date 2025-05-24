@@ -1,30 +1,33 @@
-Walkthrough of syntax and logic:
+# Explanation: Number Formats in Go
 
-package main
-Declares the package. main means this is an executable program with an entry point.
+This explanation covers how to print integers in different number formats using Go's `fmt.Printf` function.
 
-import "fmt"
-Imports the fmt package for formatted I/O functions like Printf.
+## Key Concepts
 
-func main() { ... }
-The main function is the entry point of every Go program.
+- The integer `num` is set to 42.
+- The program prints the number in various formats: decimal, binary, and hexadecimal (both uppercase and lowercase).
+- It also shows how to add the `0x` or `0X` prefix to hexadecimal numbers.
 
-num := 42
-Declares and initializes an integer variable num with the value 42.
+## Format Specifiers Used
 
-fmt.Printf
-Prints formatted output using verbs inside the format string:
+| Format Verb | Description                               | Example Output for 42 |
+|-------------|-------------------------------------------|----------------------|
+| `%d`        | Decimal (base 10)                         | 42                   |
+| `%b`        | Binary (base 2)                           | 101010                |
+| `%x`        | Hexadecimal lowercase (base 16)          | 2a                   |
+| `%X`        | Hexadecimal uppercase (base 16)          | 2A                   |
+| `%#x`       | Hexadecimal lowercase with `0x` prefix   | 0x2a                 |
+| `%#X`       | Hexadecimal uppercase with `0X` prefix   | 0X2A                 |
 
-%d — prints decimal (base 10) integer.
+## Formatting characters
 
-%b — prints binary representation.
+- `\t` inserts a tab space for better alignment.
+- `\n` inserts a new line.
 
-%x — prints hexadecimal in lowercase.
+## Summary
 
-%X — prints hexadecimal in uppercase.
+This example demonstrates how Go’s `fmt` package can format numbers in different bases, which is useful for debugging or when working with various numeric representations.
 
-%#x or %#X — prints hex with 0x (or 0X) prefix.
+---
 
-\t inserts a tab space between columns for neat alignment.
-
-\n adds a newline after each print. 
+You can refer to this explanation alongside the corresponding Go code to understand how the formatting verbs work.
