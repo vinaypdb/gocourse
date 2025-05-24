@@ -1,0 +1,39 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build directories
+bin/
+build/
+
+# Vendor folder for dependencies (if using vendoring)
+vendor/
+
+# IDE/editor config files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Go module cache (optional, usually not committed)
+Gopkg.lock
+Gopkg.toml
+
+# Coverage profiles
+*.coverprofile
+
+# Dependency directories created by dep, glide, etc.
+_glide/
