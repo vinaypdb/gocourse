@@ -53,7 +53,7 @@ Hello, Go Developer!
 ```
 ## ✅ 2.HTML Template Example
 
-```
+```go
 package main
 
 import (
