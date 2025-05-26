@@ -1,4 +1,4 @@
-# 🔄 5. Type Conversion in Go
+# 🔄 Constants in Go
 
 ## 📘 Explanation
 

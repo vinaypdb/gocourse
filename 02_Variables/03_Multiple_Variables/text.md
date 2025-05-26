@@ -1,4 +1,4 @@
-# 🔄 5. Multiple Variable Declaration and Assignment in Go
+# 🔄 Multiple Variable Declaration and Assignment in Go
 
 ## 📘 Explanation
 
@@ -47,8 +47,7 @@ x: Go y: 2025
 
 | Feature             | Description                                |
 |---------------------|--------------------------------------------|
-| Multiple Declaration|Declare multiple variables on one line
-       |
-| `var` Keyword           | 	Explicitly specify types |
-| `:=` Short Declaration     | Infers types based on the assigned values  |
+| Multiple Declaration|Declare multiple variables on one line|
+| `var` Keyword       | 	Explicitly specify types |
+| `:=` Short Declaration | Infers types based on the assigned values  |
 | Cleaner Code   | Reduces repetition and improves readability  |
