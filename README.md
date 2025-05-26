@@ -14,9 +14,10 @@ A personal Go programming course repository to track learning and practice.
 
 ## 🛠 Tech Stack
 
-- Go (Golang)
-- Git for version control
-- VS Code for development
+- **Go (Golang)** – Main programming language  
+- **Git** – Version control system  
+- **VS Code** – Code editor  
+- **Markdown** – For writing documentation and explanations  
 
 ## 🚀 Getting Started
 
