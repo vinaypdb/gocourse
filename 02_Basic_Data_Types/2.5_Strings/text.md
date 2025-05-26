@@ -4,9 +4,9 @@
 Strings in Go are sequences of characters enclosed in double quotes. They are **immutable**, meaning once a string is created, its content cannot be changed.
 
 🧬 **Types of String Literals**
-Interpreted Strings: Enclosed in double quotes "". They support escape sequences like `\n`, `\t`, `\"`, etc.
+**Interpreted Strings:** Enclosed in double quotes "". They support escape sequences like `\n`, `\t`, `\"`, etc.
 
-Raw Strings: Enclosed in backticks **`**. These preserve formatting, including newlines and tabs, exactly as typed.
+**Raw Strings:** Enclosed in backticks **`**. These preserve formatting, including newlines and tabs, exactly as typed.
 
 ## ✍️ Syntax
 
