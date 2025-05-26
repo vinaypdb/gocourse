@@ -19,7 +19,7 @@ var x int = 10
 var y float64 = float64(x)
 ```
 
-## ✅ Example
+## ✅ Example Code
 
 ```go
 package main

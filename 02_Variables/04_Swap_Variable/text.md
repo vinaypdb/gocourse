@@ -15,7 +15,7 @@ This statement does two things at once:
 
 - The value of `a` is assigned to `b`
 
-## ✅ Example
+## ✅ Example Code
 
 ```go
 package main

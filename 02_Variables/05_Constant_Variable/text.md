@@ -21,7 +21,7 @@ const name = value
 const pi float64 = 3.14
 ```
 
-## ✅ Example
+## ✅ Example Code
 
 ```go
 package main
