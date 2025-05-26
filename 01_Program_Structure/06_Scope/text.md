@@ -3,6 +3,7 @@
 ## 📘 Explanation
 
 **🧠 What is Scope?**
+
 Scope means **where something is allowed to be seen or used** — like where a student is allowed to go inside a school.
 
 **Types of Scope in Go**
