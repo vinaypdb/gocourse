@@ -28,7 +28,8 @@ You're telling Go:
 
 ## 🧩 Two Simple Types of Type Declarations
 
-1. **Create a new name for an existing type**
+
+**1.Create a new name for an existing type**
 ```go
 type Age int
 ```
@@ -43,7 +44,9 @@ var myAge Age = 20
 ```
 It still behaves like an integer but looks more meaningful!
 
-2. **Create a struct (a custom data type with multiple parts)**
+
+
+**2.Create a struct (a custom data type with multiple parts)**
 
 Imagine you want to create a "person" with a **name** and **age**.
 
@@ -55,6 +58,7 @@ type Person struct {
 
 ```
 🎒 This is like packing both `name` and `age` into one box called `Person`.
+
 
 ## ✅ Example Code
 
@@ -84,6 +88,7 @@ func main() {
 
 
 ```
+
 
 ## 🧪 Sample Output
 
