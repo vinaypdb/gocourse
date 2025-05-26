@@ -64,7 +64,7 @@ Person: {Alice 25}
 
 ## 🧩 Key Points:
 
-| | Declaration Type | Keyword | Description                                    |
+| Declaration Type | Keyword | Description                                    |
 | ---------------- | ------- | ------------------------------------------------ |
 | Variable         | `var`   | Declares a named variable with a type            |
 | Constant         | `const` | Declares a name with a fixed, unchangeable value |
