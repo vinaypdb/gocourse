@@ -17,7 +17,7 @@ var a, b int = 10, 20  // using var keyword
 x, y := "Go", 2025     // using short declaratio
 ```
 
-## ✅ Example
+## ✅ Example Code
 
 ```go
 package main
