@@ -1,6 +1,6 @@
 # 📘 3.3 Maps in Go
 
-🧠 What is a Map?
+🧠 **What is a Map?**
 
 A **map** is a built-in data type in Go that stores **key-value pairs**.
 It’s like a dictionary or hash table where you look up values using unique keys.
