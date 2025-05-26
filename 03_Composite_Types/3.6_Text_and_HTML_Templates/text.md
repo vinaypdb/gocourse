@@ -1,4 +1,4 @@
-# 📘 3.6 JSON
+# 📘 3.6  Text and HTML Templates
 
 🧠 **What Are Templates in Go?**
 
