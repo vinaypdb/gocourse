@@ -1,13 +1,22 @@
-# 🔄 5. Type Conversion in Go
+# 🔄 6. Type Conversion in Go
 
 ## 📘 Explanation
 
-Go requires **explicit** type conversion. You must manually convert values from one type to another — there's no automatic (implicit) conversion like in some other languages.
+In Go, type conversion (also called type casting) is used to explicitly convert a value from one data type to another. Go does not support implicit type conversion, meaning you must manually convert between different types.
+
+This is important when performing operations between variables of different types (e.g., int and float64), or when formatting data.
 
 ## ✍️ Syntax
 
 ```go
-converted := TypeName(original)
+convertedValue := TypeName(originalValue)
+```
+
+## ✍️ For example:
+
+```go
+var x int = 10
+var y float64 = float64(x)
 ```
 
 ## ✅ Example
