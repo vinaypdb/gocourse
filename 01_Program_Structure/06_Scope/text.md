@@ -1,6 +1,11 @@
-# 🔄 Types of Scope in Go
+# 🔄 Scope in Go
 
 ## 📘 Explanation
+
+**🧠 What is Scope?**
+Scope means **where something is allowed to be seen or used** — like where a student is allowed to go inside a school.
+
+**Types of Scope in Go**
 
 **1.Package Scope — The Whole School**
 Imagine the whole school building. Some announcements are posted on the school’s main bulletin board. Everyone in the school (all classrooms) can see it.
