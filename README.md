@@ -6,8 +6,6 @@ A personal Go programming course repository to track learning and practice.
 ```
 .
 ├── 00_Getting_Started
-│   ├── 01_Hello_World.go
-│   ├── 02_Number_Formats.go
 │   ├── greet
 │   │   └── greet.go
 │   └── main.go
@@ -24,7 +22,18 @@ A personal Go programming course repository to track learning and practice.
 │   │   └── 3.7_Type_Conversions
 │   ├── 04_Assignments
 │   ├── 05_Type_Declarations
-│   └── 06_Scope
+│   ├── 06_Scope
+│   └── 07_Control_Structures
+│       ├── 7.1_If_Statement
+│       ├── 7.2_Loops
+│       │   ├── 7.2.1_For_Loops
+│       │   ├── 7.2.2_While_Style
+│       │   ├── 7.2.3_Infinite_Loop
+│       │   └── 7.2.4_For_With_range
+│       ├── 7.3_Switch_Statement
+│       ├── 7.4_Break_and_Continue
+│       ├── 7.5_Goto_Statement
+│       └── 7.6_Select_Statement
 ├── 02_Basic_Data_Types
 │   ├── 2.1_Integers
 │   ├── 2.2_Floating_Point_Numbers
@@ -39,9 +48,23 @@ A personal Go programming course repository to track learning and practice.
 │   ├── 3.4_Structs
 │   ├── 3.5_JSON
 │   └── 3.6_Text_and_HTML_Templates
+├── 04_Functions
+│   ├── 4.1_Function_Declarations
+│   ├── 4.2_Recursion
+│   ├── 4.3_Multiple_Return_Values
+│   ├── 4.4_Errors
+│   ├── 4.5_Function_Values
+│   ├── 4.6_Anonymous_Functions
+│   ├── 4.7_Variadic_Functions
+│   ├── 4.8_Deferred_Function_Calls
+│   ├── 4.99_Recover
+│   └── 4.9_Panic
+├── 05_Methods
+├── 06_Interfaces
 ├── go.mod
 ├── LICENSE
 └── README.md
+
 
 ```
 
@@ -49,7 +72,7 @@ A personal Go programming course repository to track learning and practice.
 
 - **Go (Golang)** – Main programming language  
 - **Git** – Version control system  
-- **VS Code** – Code editor  
+- **VS Code** – For Development 
 - **Markdown** – For writing documentation and explanations  
 
 ## 🚀 Getting Started
